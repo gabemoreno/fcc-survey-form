@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bake-A-Thon Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">
+    <!-- come up with title here -->
+    Bake-A-Thon Application
+  </h1>
+  <p id="description">
+    <!-- short explanation -->
+    desc
+  </p>
+  <form id="survey-form">
+
+    <!-- Basic Info -->
+    
+    <fieldset>
+      
+      <!-- Name -->
+
+      <label id="name-label">Name:
+        <input id="name" required type="text" placeholder="Enter your full name"/>
+      </label>
+
+      <!-- Email -->
+
+      <label id="email-label">Email:
+        <input required id="email" type="email" placeholder="Enter your email address"/>
+      </label>
+
+      <!-- Number -->
+
+      <label id="number-label">Years of Baking Experience
+        <input id="number" type="number" min="1" max="2" placeholder="How many years have you been baking?"/>
+      </label>
+
+      <!-- Dropdown -->
+
+      <label>Preferred Time Slot
+        <select id="dropdown">
+
+          <option>
+          </option>
+
+          <option>
+          </option>
+
+        </select>
+      </label>
+    
+    </fieldset>
+
+    <!-- Radio Section -->
+    <!-- experience level? -->
+
+    <legend>Preferred Baking Category (Choose only one)</legend>
+    <fieldset>
+      <!-- Radio Buttons -->
+
+      <label>
+        <input type="radio" name="radio"/>Beginner
+      </label>
+    
+      <label>
+        <input type="radio" name="radio"/>Intermediate
+      </label>
+
+      <label>
+        <input type="radio" name="radio"/>Advanced
+      </label>
+
+      <label>
+        <input type="radio" name="radio"/>Expert
+      </label>
+      
+    </fieldset>
+
+    <fieldset>
+
+      <!-- Checkbox -->
+
+      <legend>Dietary Restrictions</legend>
+      <label>
+       <input type="checkbox" value="1"/>Gluten-Free
+      </label>
+      <label>
+       <input type="checkbox" value="2"/>Nut-Free
+      </label>
+       <input type="checkbox" value="2"/>Vegan
+       <input type="checkbox" value="2"/>Dairy-Free
+
+      </label>
+
+      <!-- Textbox -->
+
+      <label>
+        Why do you want to join the band?
+        <textarea></textarea>
+      </label>
+    </fieldset>
+
+
+    <!-- Submit -->
+
+    <input id="submit" type="submit" value="Submit"/>
+
+  </form>
+  <p></p>
+
+</body>
+
+
+<html>

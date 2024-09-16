@@ -32,6 +32,7 @@ form, p {
 
 form {
   background-color: rgba(54, 33, 115, 0.4);
+  border-radius: 2em;
 }
 
 fieldset {
@@ -53,6 +54,7 @@ input, textarea, select {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
+  border-radius: 1em;
 }
 
 input[type="radio"], input[type="checkbox"] {
